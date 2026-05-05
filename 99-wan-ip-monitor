@@ -1,0 +1,4 @@
+#!/bin/sh
+# Location /etc/hotplug.d/iface/99-wan-ip-monitor
+# Trigger WAN IP monitor when WAN interface changes
+/usr/bin/wan-ip-monitor.sh
